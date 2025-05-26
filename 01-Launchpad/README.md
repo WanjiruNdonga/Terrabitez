@@ -39,6 +39,9 @@ Here’s the fast-track to setting up my environment, primarily using PowerShell
 
 ![VS extensions](https://github.com/user-attachments/assets/fef04f61-233d-4258-a5a2-bb2b6441c01b)
 
+
+![AWS IAM](https://github.com/user-attachments/assets/e7b518aa-e6a0-43c9-a415-ae23394577be)
+
 ---
 
 ## Challenge Repo: Get It Local! 📦
@@ -76,7 +79,7 @@ Quick check in PowerShell to confirm everything's humming:
 * `aws --version`
 * `terraform --version`
 
-![Versions](https://github.com/user-attachments/assets/d24cf439-480d-4323-8068-3fe671bc5e78)
+![Versions](https://github.com/user-attachments/assets/0ac9e0b7-e769-46c7-866c-5ca117f746c5)
 
 ---
 
