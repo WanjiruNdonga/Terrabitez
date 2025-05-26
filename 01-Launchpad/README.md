@@ -37,6 +37,8 @@ Here’s the fast-track to setting up my environment, primarily using PowerShell
     * **Material Icon Theme** (for pretty icons!)
     * **Indent Rainbow** (for visual clarity!)
 
+![VS extensions](https://github.com/user-attachments/assets/fef04f61-233d-4258-a5a2-bb2b6441c01b)
+
 ---
 
 ## Challenge Repo: Get It Local! 📦
@@ -74,6 +76,8 @@ Quick check in PowerShell to confirm everything's humming:
 * `aws --version`
 * `terraform --version`
 
+![Versions](https://github.com/user-attachments/assets/d24cf439-480d-4323-8068-3fe671bc5e78)
+
 ---
 
 ## Troubleshooting `PATH` Errors (The Common Culprit! 😤)
@@ -94,6 +98,8 @@ Ah, the infamous one! This means you're not in the correct directory where your 
 2.  **What's Here?** Next, use `ls` (or `dir`) to list the contents of your current folder and look for your cloned repo folder (e.g., `30-Day-Terraform-challenge-`).
 3.  **Navigate!** Once you find it, use `cd` to enter that folder: `cd 30-Day-Terraform-challenge-` (Remember `Tab` for autocompletion!).
 4.  **Verify:** Now, `git status` should work perfectly! You should see something like "On branch main" instead of the fatal error.
+
+![Git Clone](https://github.com/user-attachments/assets/68185879-0238-4cda-b191-046862844890)
 
 ---
 
