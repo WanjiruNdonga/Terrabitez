@@ -32,7 +32,7 @@ Even though the AWS CLI was installed on Day 1, today was about getting it *conf
 
 This is where Terraform truly begins its conversation with AWS.
 
-* **Action:** Created a `main.tf` file in my `02-aws-handshake` folder (or similar).
+* **Action:** Created a `main.tf` file in my `02-aws-handshake` folder.
 * **Content:** Added the basic AWS provider block. Terraform automatically looks for AWS credentials configured by `aws configure` or environment variables.
 
     ```terraform
