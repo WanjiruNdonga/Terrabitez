@@ -31,7 +31,8 @@ Here’s the fast-track to setting up my environment, primarily using PowerShell
 * **Open VS Code.**
 * **Extensions View:** Click the 🧩 icon (or `Ctrl+Shift+X`).
 * **Install These Essentials:**
-    * **Terraform** (by HashiCorp) - *The absolute must-have for HCL!*
+    * **Hashicorp Terraform** - *The absolute must-have for HCL!*
+    * **Hashicorp HCL** - *Helps with syntax & code magic!*
     * **Material Icon Theme** (for pretty icons!)
     * **Indent Rainbow** (for visual clarity!)
 
