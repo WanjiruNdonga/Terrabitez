@@ -1,6 +1,6 @@
-# Day 1: Terrabitez Launchpad Setup 🚀
+# Day 1: TerraBiteʒ Launchpad Setup 🚀
 
-Welcome to my first **Terrabitez** challenge! Today, it's all about getting my Cloud IaC workstation ready. No fluff, just the essentials to kick off this legendary journey. 🛠️✨
+Welcome to my first **TerraBiteʒ** challenge! Today, it's all about getting my Cloud IaC workstation ready. No fluff, just the essentials to kick off this legendary journey. 🛠️✨
 
 ---
 
@@ -108,4 +108,12 @@ Ah, the infamous one! This means you're not in the correct directory where your 
 
 ## What's Next? ➡️
 
-Setup complete! Time to start crafting some **TerraBitez!** My first challenge awaits!
+Setup complete! Time to start crafting some **TerraBiteʒ!** My first challenge awaits!
+
+---
+
+### 🔗 Biteʒ 1 Blog Post:
+
+* **Read the full detailed post on Dev.to:** [Terraform Prep Party](YOUR_DEVTO_DAY1_POST_LINK_HERE)
+
+---
