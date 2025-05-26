@@ -18,7 +18,7 @@ Here’s the fast-track to setting up my environment, primarily using PowerShell
 * **Verify in PS:** `git --version` (Confirms Git is ready to roll!)
 
 ### 3. AWS CLI: Cloud Communicator ☁️
-* **Download:** Get the `.msi` installer from [aws.amazon.com/cli](https://aws.amazon.com/cli/).
+* **Download:** Get the `.msi` installer from [aws.amazon.com/cli]([https://aws.amazon.com/cli/](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 * **Install:** Run it and follow the wizard.
 * **Verify in PS:** `aws --version` (Should show version details!)
 
