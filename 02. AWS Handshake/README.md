@@ -1,6 +1,6 @@
 # Day 2: AWS Handshake 🤝
 
-Welcome back to the **TerraBiteʒ** challenge! Day 1 was all about setting up the workstation. Today, it's time to teach Terraform how to talk to AWS – because what's IaC without a cloud to manage? It's all about establishing that crucial handshake! 🤝☁️
+**TerraBiteʒ** challenge, Day 1 was all about setting up the workstation. Day 2, it's time to teach Terraform how to talk to AWS – because what's IaC without a cloud to manage? It's all about establishing that crucial handshake! 🤝☁️
 
 ---
 
@@ -25,10 +25,28 @@ Even though the AWS CLI was installed on Day 1, today was about getting it *conf
     * `Default region name`: `[Your AWS Region]` (e.g., `us-east-1` or `eu-west-2`)
     * `Default output format`: `json` (or `text`, `table`)
 
-* **Verification:** `aws configure list` to confirm my settings.
-    ![AWS CLI Configure Screenshot](link-to-your-aws-configure-screenshot.png)
+### 3. Verification Checkpoint ✅
 
-### 3. Terraform AWS Provider Configuration 🏗️
+To ensure Terraform and AWS are truly talking to each other, I performed a quick check:
+
+* **AWS CLI Check:**
+    ```bash
+    aws sts get-caller-identity
+    ```
+* **Expected Output:** This should tell you about the IAM user you configured, confirming AWS CLI is working.
+
+        ```json
+        {
+          "UserId": "AIDACKCEVSQ6C2EXAMPLE",
+          "Account": "123456789012",
+          "Arn": "arn:aws:iam::123456789012:user/my-iam-user"
+        }
+        ```
+
+* **Terraform Check:**
+    After `terraform init`, the presence of the `.terraform` directory and no errors indicate success.
+
+### 4. Terraform AWS Provider Configuration 🏗️
 
 This is where Terraform truly begins its conversation with AWS.
 
@@ -47,34 +65,15 @@ This is where Terraform truly begins its conversation with AWS.
 
     # Configure the AWS Provider
     provider "aws" {
-      region = "[Your AWS Region]" # e.g., "us-east-1"
+      region = "[Your AWS Region]" # e.g., "af-south-1"
       # No need to specify access_key/secret_key here if configured via AWS CLI
     }
     ```
 
 * **Initialization:** Ran `terraform init` in PowerShell from the directory containing `main.tf`. This downloads the necessary AWS provider plugin.
-    ![Terraform Init Screenshot](link-to-your-terraform-init-screenshot.png)
-
-### 4. VS Code AWS Toolkit (Beyond Installation) 💻
-
-Beyond installing the extension on Day 1, I explored its features for managing AWS resources directly from VS Code. (Optional: Mention any specific configurations you did here, or features you explored.)
-
----
-
-## Verification Checkpoint ✅
-
-To ensure Terraform and AWS are truly talking to each other, I performed a quick check:
-
-* **AWS CLI Check:**
     ```bash
-    aws sts get-caller-identity
+    terraform init
     ```
-    * **Expected Output:** This should return details about the IAM user whose credentials you configured, confirming AWS CLI is working.
-    ![AWS STS Get Caller Identity Screenshot](link-to-your-sts-get-caller-identity-screenshot.png)
-
-* **Terraform Check:**
-    After `terraform init`, the presence of the `.terraform` directory and no errors indicate success.
-
 ---
 
 ## Troubleshooting Corner 🚧
@@ -92,6 +91,6 @@ Terraform and AWS are now officially shaking hands! Day 2 wrapped up the critica
 
 ### 🔗 Biteʒ 2 Blog Post:
 
-* **Read the full detailed post on Dev.to:** [AWS Handshake](YOUR_DEVTO_DAY2_POST_LINK_HERE)
+* **Read the full detailed post on Dev.to:** [AWS Handshake](https://dev.to/mercyndonga/terra-bitez-2-aws-handshake-k3p/)
 
 ---
